@@ -16,7 +16,7 @@ pipeline{
         }
     }
 
-     stage('Push Image) {
+     stage('Push Image') {
         steps{
         bat "docker push adityajha1/selenium"
         }
